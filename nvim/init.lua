@@ -22,6 +22,8 @@ vim.opt.incsearch = true
 -- クリップボード（Windows）
 vim.opt.clipboard = "unnamedplus"
 
+-- エスケープ2回で検索のハイライトを消す
+vim.keymap.set("n", "<Esc><Esc>", ":nohlsearch<CR>")
 -- =========================
 -- lazy.nvim
 -- =========================
