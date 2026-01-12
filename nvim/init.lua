@@ -8,6 +8,9 @@ vim.opt.encoding = "utf-8"
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- カーソル行を強調表示
+vim.opt.cursorline = true
+
 -- インデント
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
