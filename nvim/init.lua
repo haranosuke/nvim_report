@@ -2,6 +2,10 @@
 -- 基本設定
 -- =========================
 
+-- leader Setting
+vim.g.mapleader =" "
+vim.g.maplocalleader = " "
+
 vim.opt.encoding = "utf-8"
 
 -- 行番号
